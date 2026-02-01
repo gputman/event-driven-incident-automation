@@ -1,0 +1,8 @@
+{
+  "source": "infrastructure-monitoring",
+  "asset_id": "server-abc123",
+  "severity": "critical",
+  "event_type": "hardware_health",
+  "location": "dc-west",
+  "timestamp": "2024-10-21T14:32:00Z"
+}
