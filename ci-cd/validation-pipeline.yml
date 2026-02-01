@@ -1,0 +1,17 @@
+name: Automation Validation
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate alert payloads
+        run: |
+          jq . examples/sample-alert-payload.json
+          jq . examples/servicenow-incident-request.json
