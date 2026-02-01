@@ -1,0 +1,8 @@
+{
+  "short_description": "Critical hardware alert detected",
+  "impact": "1",
+  "urgency": "1",
+  "assignment_group": "OSS-Physical-Touch",
+  "configuration_item": "server-abc123",
+  "description": "Automated incident generated from monitoring event"
+}
